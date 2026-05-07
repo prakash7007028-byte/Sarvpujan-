@@ -1,1 +1,215 @@
-# Sarvpujan-
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SarvPujan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fffaf3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-orange-500 text-white shadow-lg">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-3xl font-bold">🕉️ SarvPujan</h1>
+      <nav class="space-x-6 text-lg">
+        <a href="#" class="hover:text-yellow-200">Home</a>
+        <a href="#puja" class="hover:text-yellow-200">Puja</a>
+        <a href="#about" class="hover:text-yellow-200">About</a>
+        <a href="#contact" class="hover:text-yellow-200">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-[85vh]" style="background-image:url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1600&auto=format&fit=crop');">
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+      <h2 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+        घर बैठे पाएँ <br> दिव्य आशीर्वाद
+      </h2>
+
+      <p class="text-xl md:text-2xl max-w-3xl mb-8 text-gray-200">
+        Divine blessings from sacred temples at your home.
+      </p>
+
+      <div class="flex gap-4 flex-wrap justify-center">
+        <button class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg transition">
+          Book Puja
+        </button>
+
+        <button class="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-full text-lg font-semibold shadow-lg transition">
+          Offer Chadhava
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Puja Section -->
+  <section id="puja" class="py-20 px-6">
+    <div class="max-w-7xl mx-auto text-center">
+      <h3 class="text-5xl font-bold text-orange-600 mb-4">Featured Pujas</h3>
+      <p class="text-gray-600 mb-12 text-lg">Book sacred pujas from famous temples.</p>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- Card 1 -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:scale-105 transition duration-300">
+          <img src="https://images.unsplash.com/photo-1512632578888-169bbbc64f33?q=80&w=1200&auto=format&fit=crop" class="w-full h-60 object-cover">
+          <div class="p-6">
+            <h4 class="text-3xl font-bold mb-2">Mahakal Puja</h4>
+            <p class="text-gray-500 mb-4">Ujjain Temple</p>
+            <p class="text-orange-500 text-2xl font-bold mb-6">₹501</p>
+            <button class="bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:scale-105 transition duration-300">
+          <img src="https://images.unsplash.com/photo-1599661046827-dacff0c0f09c?q=80&w=1200&auto=format&fit=crop" class="w-full h-60 object-cover">
+          <div class="p-6">
+            <h4 class="text-3xl font-bold mb-2">Shani Puja</h4>
+            <p class="text-gray-500 mb-4">Shani Temple</p>
+            <p class="text-orange-500 text-2xl font-bold mb-6">₹351</p>
+            <button class="bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:scale-105 transition duration-300">
+          <img src="https://images.unsplash.com/photo-1604608672516-f1b36f5b4c5b?q=80&w=1200&auto=format&fit=crop" class="w-full h-60 object-cover">
+          <div class="p-6">
+            <h4 class="text-3xl font-bold mb-2">Kashi Vishwanath Puja</h4>
+            <p class="text-gray-500 mb-4">Varanasi Temple</p>
+            <p class="text-orange-500 text-2xl font-bold mb-6">₹701</p>
+            <button class="bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Section -->
+  <section class="bg-orange-500 text-white py-16">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+      <div>
+        <h3 class="text-5xl font-bold">1000+</h3>
+        <p class="mt-2 text-xl">Happy Devotees</p>
+      </div>
+
+      <div>
+        <h3 class="text-5xl font-bold">50+</h3>
+        <p class="mt-2 text-xl">Sacred Temples</p>
+      </div>
+
+      <div>
+        <h3 class="text-5xl font-bold">4.9★</h3>
+        <p class="mt-2 text-xl">User Rating</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-5xl font-bold text-orange-600 mb-10">Devotee Reviews</h3>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-orange-50 p-8 rounded-3xl shadow-lg">
+          <p class="text-lg text-gray-700">
+            “बहुत ही दिव्य अनुभव रहा। पूजा और दर्शन घर बैठे हुए 🙏”
+          </p>
+          <h4 class="mt-4 font-bold text-orange-600">— Rahul Sharma</h4>
+        </div>
+
+        <div class="bg-orange-50 p-8 rounded-3xl shadow-lg">
+          <p class="text-lg text-gray-700">
+            “SarvPujan से मंदिर से जुड़ना बहुत आसान हो गया।”
+          </p>
+          <h4 class="mt-4 font-bold text-orange-600">— Priya Verma</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-black text-white py-10 text-center">
+    <h2 class="text-3xl font-bold mb-4">🕉️ SarvPujan</h2>
+    <p class="text-gray-400">Divine blessings at your home.</p>
+
+    <div class="mt-6 flex justify-center gap-6 text-lg">
+      <a href="#" class="hover:text-orange-400">Instagram</a>
+      <a href="#" class="hover:text-orange-400">YouTube</a>
+      <a href="#" class="hover:text-orange-400">WhatsApp</a>
+    </div>
+
+    <p class="mt-8 text-gray-500 text-sm">
+      © 2026 SarvPujan. All rights reserved.
+    </p>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div id="bookingModal" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50 p-4">
+    <div class="bg-white rounded-3xl p-8 max-w-md w-full relative">
+      <button onclick="closeModal()" class="absolute top-4 right-4 text-2xl">✖</button>
+      <h2 class="text-3xl font-bold text-orange-500 mb-6 text-center">Book Puja</h2>
+
+      <form onsubmit="submitBooking(event)">
+        <input type="text" placeholder="Your Name" required class="w-full border p-3 rounded-xl mb-4">
+        <input type="tel" placeholder="Phone Number" required class="w-full border p-3 rounded-xl mb-4">
+        <input type="text" placeholder="Gotra" class="w-full border p-3 rounded-xl mb-4">
+        <input type="date" required class="w-full border p-3 rounded-xl mb-4">
+
+        <button type="submit" class="w-full bg-orange-500 text-white py-3 rounded-xl hover:bg-orange-600 transition font-bold text-lg">
+          Continue Booking
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919999999999" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl text-3xl hover:scale-110 transition z-50">
+    💬
+  </a>
+
+  <!-- Scripts -->
+  <script>
+    const buttons = document.querySelectorAll('button');
+
+    buttons.forEach(btn => {
+      if(btn.innerText.includes('Book')) {
+        btn.addEventListener('click', () => {
+          document.getElementById('bookingModal').classList.remove('hidden');
+          document.getElementById('bookingModal').classList.add('flex');
+        })
+      }
+    })
+
+    function closeModal() {
+      document.getElementById('bookingModal').classList.add('hidden');
+      document.getElementById('bookingModal').classList.remove('flex');
+    }
+
+    function submitBooking(e) {
+      e.preventDefault();
+      alert('🙏 Booking Request Submitted Successfully!');
+      closeModal();
+    }
+  </script>
+
+</body>
+</html>
